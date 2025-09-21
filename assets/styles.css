@@ -1,0 +1,21 @@
+:root{
+  --ink:#03045e;
+  --blue:#0077b6;
+  --aqua:#00b4d8;
+  --sky:#90e0ef;
+  --ice:#caf0f8;
+}
+body{background:var(--ice)}
+.main-nav{background:linear-gradient(90deg,var(--ink),var(--blue))}
+.hero{background:linear-gradient(180deg,var(--blue),var(--aqua))}
+.feature-tile{display:block;background:var(--sky);color:#001a2b;text-decoration:none;text-align:center;padding:2.5rem;border-radius:1rem;font-weight:700}
+.feature-tile:hover{background:var(--aqua);color:#001}
+.grid-box{background:var(--sky);padding:3rem;border-radius:1rem;text-align:center;font-weight:700}
+.section-title{font-weight:700;color:var(--ink)}
+.table-primary{--bs-table-bg:var(--sky);--bs-table-color:#001a2b}
+.btn-primary{--bs-btn-bg:var(--aqua);--bs-btn-border-color:var(--aqua);--bs-btn-hover-bg:var(--blue);--bs-btn-hover-border-color:var(--blue);--bs-btn-active-bg:var(--blue);--bs-btn-active-border-color:var(--blue)}
+.btn-outline-primary{--bs-btn-color:var(--blue);--bs-btn-border-color:var(--blue);--bs-btn-hover-bg:var(--blue);--bs-btn-hover-border-color:var(--blue)}
+.card-img-top{border-top-left-radius:.75rem;border-top-right-radius:.75rem}
+.accordion-button{background-color:var(--ice)}
+.accordion-button:not(.collapsed){color:#001a2b;background-color:var(--sky)}
+footer{background:var(--ice);border-top:1px solid rgba(0,0,0,.06)}
