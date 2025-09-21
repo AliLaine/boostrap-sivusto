@@ -11,7 +11,9 @@
   <nav class="navbar navbar-expand-lg navbar-dark main-nav">
     <div class="container">
       <a class="navbar-brand fw-bold" href="index.html">Bootsivuni</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div id="nav" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Etusivu</a></li>
@@ -26,8 +28,9 @@
   </nav>
 
   <main class="container my-5">
+    <h1 class="mb-4">Taulukko Bootstrap-väreillä</h1>
     <div class="table-responsive rounded-4 shadow-sm">
-      <table class="table table-striped table-hover align-middle mb-0">
+      <table class="table table-hover align-middle mb-0">
         <thead class="table-primary">
           <tr>
             <th scope="col">#</th>
@@ -37,11 +40,36 @@
           </tr>
         </thead>
         <tbody>
-          <tr><th scope="row">1</th><td>Navi</td><td>Responsiivinen</td><td><span class="badge text-bg-success">OK</span></td></tr>
-          <tr><th scope="row">2</th><td>Karuselli</td><td>Toimii</td><td><span class="badge text-bg-success">OK</span></td></tr>
-          <tr><th scope="row">3</th><td>Ruudukko</td><td>Bootstrap grid</td><td><span class="badge text-bg-success">OK</span></td></tr>
-          <tr><th scope="row">4</th><td>Kortit</td><td>Cards</td><td><span class="badge text-bg-success">OK</span></td></tr>
-          <tr><th scope="row">5</th><td>Haitari</td><td>Accordion</td><td><span class="badge text-bg-success">OK</span></td></tr>
+          <tr class="table-success">
+            <th scope="row">1</th>
+            <td>Navi</td>
+            <td>Responsiivinen, toimii kaikilla näytöillä</td>
+            <td><span class="badge bg-dark">OK</span></td>
+          </tr>
+          <tr class="table-info">
+            <th scope="row">2</th>
+            <td>Karuselli</td>
+            <td>Kolme kuvaa, nuolet ja indikaattorit</td>
+            <td><span class="badge bg-dark">OK</span></td>
+          </tr>
+          <tr class="table-warning">
+            <th scope="row">3</th>
+            <td>Ruudukko</td>
+            <td>Bootstrap grid 4x2</td>
+            <td><span class="badge bg-dark">OK</span></td>
+          </tr>
+          <tr class="table-danger">
+            <th scope="row">4</th>
+            <td>Kortit</td>
+            <td>Kolme korttia kuvilla</td>
+            <td><span class="badge bg-dark">OK</span></td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">5</th>
+            <td>Haitari</td>
+            <td>Kolme osiota, avautuvat ja sulkeutuvat</td>
+            <td><span class="badge bg-dark">OK</span></td>
+          </tr>
         </tbody>
       </table>
     </div>
